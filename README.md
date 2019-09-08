@@ -35,14 +35,13 @@ Create user and grant all privileges in Oracle by following commands in cmd:
 
 8.	Install Node.js at same location of project in eclipse workspace using command: npm (in command prompt).
 Download link: https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi 
-
-In eclipse IDE, Go to Run Run Configurations and in Goals enter: tomcat7:run
-Update two files in the project:
-  1.	Go to srcmainresourcesdb.properties
-  Change following:
-    mysql.user=home
-    mysql.password=orcl (the one created as oracle user)
-  2.	pom.xml (if tomcat server does not run, change port at line 108)
+  Next, 
+  In eclipse IDE, Go to Run->Run Configurations and in Goals enter: tomcat7:run
+  Update two files in the project:
+    1.	Go to src->main->resources->db.properties and change the following:
+        mysql.user=home
+        mysql.password=orcl (the one created as oracle user)
+    2. pom.xml (if tomcat server does not run, change port at line 108)
 
 9.	There is one file student.service.ts from where Rest API is called by Anguar from Sping MVC framework. Make sure to use port used by tomcat (one in pom.xml) their. 
 
