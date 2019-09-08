@@ -18,7 +18,7 @@ Download link: https://www.oracle.com/technetwork/database/enterprise-edition/do
    Create user and grant all privileges in Oracle by following commands in cmd:
       1.	SQLPLUS
       2.	create user <username> identified by “<password>”; (e.g. user: home, password: orcl)
-      3.	grant "<privilege>" to "<user>"; 
+      3.	grant < privilege > to < user >; 
  
 5.	Install Sql Developer
   Download link: https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html 
