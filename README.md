@@ -19,9 +19,10 @@ Steps to run the system:
       2. create user <username> identified by “<password>”; (e.g. user: home, password: orcl)
       3. grant < privilege > to < user >; 
  
+ 
 5.	Install Sql Developer.
  Download link: https://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html 
-  In SQL Developer on the left panel: Right click on Connections  New Connection
+  In SQL Developer on the left panel: Right click on Connections->New Connection
   In New/Select Database Connection prompt, enter details as follows:
     1.	Connection name: your connection name e.g. homeuser
     2.	Username: the user created in oracle i.e. home (in our example)
@@ -67,7 +68,7 @@ Project Description:
 
 - Each student holds a rank in the martial arts. The belt color and the date the student awarded each rank is kept in the database. A given rank may be held by many students. While it is customary to think of a student as having a single rank, it can track each student’s progress through the ranks. Therefore, every rank that a student attains is kept in the system. New students joining the school are automatically given a white belt rank (default).
 
--Sample ranks (the user can enter any ranks in the Ranks table) are:
+- Sample ranks (the user can enter any ranks in the Ranks table) are:
 1. White
 2. Yellow
 3. Green
