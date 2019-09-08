@@ -29,11 +29,11 @@ Create user and grant all privileges in Oracle by following commands in cmd:
     4.	Select SID: orcl
     5.	Test & Connect
 
-6.	Import 	the database file provided in SQL developer.
+6.	Import the database file provided in SQL developer
 
-7.	Import the project (StephanosTaekwondo) & angular project in eclipse workspace.
+7.	Import the project (StephanosTaekwondo) & angular project in eclipse workspace
 
-8.	Install Node.js at same location of project in eclipse workspace using command: npm (in command prompt).
+8.	Install Node.js at same location of project in eclipse workspace using command: npm (in command prompt)
 Download link: https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi 
   Next, 
   In eclipse IDE, Go to Run->Run Configurations and in Goals enter: tomcat7:run
@@ -45,4 +45,12 @@ Download link: https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi
 
 9.	There is one file student.service.ts from where Rest API is called by Anguar from Sping MVC framework. Make sure to use port used by tomcat (one in pom.xml) their. 
 
-10.	Run angular project at particular port specified in cmd after npm command in step 7 as: localhost:port-by-cmd/ e.g. localhost:4700/ in browser.
+10. Run angular project at particular port specified in cmd after npm command in step 7 as: localhost:port-by-cmd/ e.g. localhost:4700/ in browser.
+
+
+Project Description: 
+
+- There is only one instructor who teaches all classes and he is the only user.
+- Student data are stored in the database. This includes: their name, date of birth, the date they joined the school, their mobile number, email, and address.
+- The school wants to track also the students’ parents (Mother and Father). Most students live with their parents but NOT all students have parents (some students might be adults so there is no need to keep track of their parents). We need to store also parents’ mobile phone and email address. Parents may also be students.
+- 
